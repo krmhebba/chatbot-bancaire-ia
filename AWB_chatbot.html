@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWB - Assistant Virtuel</title>
+    <link rel="stylesheet" href="AWB_chatbot.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo.webp" alt="Logo" height="40" onerror="this.style.display='none'">
+            <div class="logo">Attijariwafa Bank - Assistant virtuel</div> 
+        </div>
+        <button id="themeToggle" class="theme-toggle">🌙 Mode sombre</button>
+    </div>
+    <div id="chatbox">
+        <div class="message assistant">
+            <strong>Assistant:</strong> Bonjour ! Je suis votre assistant. Posez-moi n'importe quelle question.
+        </div>
+    </div>
+    <div class="input-container">
+        <input type="text" id="messageInput" placeholder="Tapez votre message..." autocomplete="off">
+        <button id="sendButton">➤</button>
+    </div>
+    <script src="AWB_chatbot.js"></script>
+</body>
+</html>
